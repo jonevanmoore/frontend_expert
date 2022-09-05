@@ -55,6 +55,19 @@ nav {
     color: white;
 }
 
+.phone {
+    color: black;
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    margin-left: 20px;
+    transition: .2s;
+}
+
+.phone:hover {
+    color: blue;
+}
+
 .intro-div {
     display: flex;
     position: relative;
