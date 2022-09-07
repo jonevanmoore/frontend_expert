@@ -2,6 +2,7 @@ body {
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Comfortaa', cursive;
+    animation: fadeIn 2s;
 }
 
 .pos-fix {
@@ -28,6 +29,7 @@ nav {
     z-index: -1;
     background-color: white;
     padding: 40px 20px;
+    border-bottom: 1px solid rgb(224, 224, 224);
 }
 
 .fa-brands {
