@@ -107,4 +107,44 @@ nav {
 .techs {
     display: flex;
     justify-content: space-between;
+    margin-top: 25px;
+}
+
+.tech-img {
+    width: 50px;
+    transition: .5s;
+}
+
+.tech-img:hover {
+    width: 55px;
+}
+
+/* TEXT BANNER */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#text-banner {
+    display: none;
+    position: absolute;
+    bottom: -85px;
+    animation: fadeIn .5s;
+    text-align: center;
+}
+
+.indie-tech-div:hover>#text-banner {
+    display: block;
+}
+
+/*  */
+
+.project-div {
+    text-align: center;
+    margin-top: 100px;
 }
