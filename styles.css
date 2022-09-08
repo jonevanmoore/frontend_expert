@@ -207,6 +207,51 @@ nav {
     animation-duration: 1.5s;
 }
 
+/* JELLO SLIDE */
+.slideshow-container1 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides1 {
+    display: none;
+}
+
+
+/* Caption text */
+.text1 {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.537);
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    /* left: 250px; */
+}
+
+.active1 {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade1 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
 @keyframes fade {
     from {
         opacity: .4
@@ -218,28 +263,38 @@ nav {
 }
 
 /* PHOTONEST */
-.photonest-div {
+.site-div {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    text-align: center;
+    border-bottom: #717171 solid 1px;
 }
 
-.photonest-label {
+
+
+.site-label {
     position: relative;
     bottom: 15px;
 }
 
-.photonest-right {
+.site-right {
     margin-left: 50px;
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
+    max-width: 50%;
+}
+
+.site-btns {
+    position: relative;
+    right: 50px;
 }
 
 .text-desc {
-    margin-top: 80px;
+    text-align: start;
+    margin-top: 150px;
     font-size: 20px;
-    max-width: 80%;
 }
 
 /*  */
