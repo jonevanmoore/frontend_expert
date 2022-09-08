@@ -252,6 +252,51 @@ nav {
     animation-duration: 1.5s;
 }
 
+/* QUILLED SLIDE */
+.slideshow-container2 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides2 {
+    display: none;
+}
+
+
+/* Caption text */
+.text2 {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.537);
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    /* left: 250px; */
+}
+
+.active2 {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade2 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
 @keyframes fade {
     from {
         opacity: .4
@@ -284,6 +329,7 @@ nav {
     flex-direction: column;
     /* justify-content: space-between; */
     max-width: 50%;
+    min-width: 50%;
 }
 
 .site-btns {

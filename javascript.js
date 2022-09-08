@@ -31,4 +31,20 @@ window.addEventListener('DOMContentLoaded', () => {
         slides1[slideIndex1 - 1].style.display = "block";
         setTimeout(showSlides1, 4000); // Change image every 4 seconds
     }
+
+    // QUILLED
+    let slideIndex2 = 0;
+    showSlides2();
+
+    function showSlides2() {
+        let i;
+        let slides2 = document.getElementsByClassName("mySlides2");
+        for (i = 0; i < slides2.length; i++) {
+            slides2[i].style.display = "none";
+        }
+        slideIndex2++;
+        if (slideIndex2 > slides2.length) { slideIndex2 = 1 }
+        slides2[slideIndex2 - 1].style.display = "block";
+        setTimeout(showSlides2, 4000); // Change image every 4 seconds
+    }
 })
