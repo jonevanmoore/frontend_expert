@@ -18,10 +18,9 @@
     <div class="pos-fix">
         <nav class="nav-bar">
             <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#tech-div">Tech</a>
-                <a href="#project-div">Projects</a>
-                <a href="">About</a>
+                <a href="#home" id="blue">About</a>
+                <a href="#tech" id="blue">Tech</a>
+                <a href="#projects" id="blue">Projects</a>
             </div>
             <div class="nav-links">
                 <a href="https://www.linkedin.com/in/jonevanmoore" target="_blank"><i
@@ -36,8 +35,8 @@
             <h2 class="nav-name">Jon Moore</h2>
         </div>
     </div>
-
-    <div class="intro-div" id="home">
+    <br id="home">
+    <div class="intro-div">
         <div>
             <img src="https://myphotonestbucket.s3.us-east-2.amazonaws.com/fecf1eea842b4d63934f36acd9f7f612.jpg"
                 width="450px" class="my-face" />
@@ -50,9 +49,23 @@
         </div>
     </div>
 
-    <div class="tech-div" id="tech-div">
+
+    <div class="tech-div" id="tech">
+        <div class="about-div">
+            <p>
+                I am a software engineer experienced in the various technologies you see below. Before attending
+                the
+                rigorous 6-month-long bootcamp of App Academy, I spent the better half of a year teaching myself how to
+                code
+                in my off time. The skills I've learned have gotten me to the point where I can have a unique idea and
+                layout of an application and get it near pixel-perfect to what I pictured in my head. Chopping through a
+                thick forest of error messages, I've slowly but surely developed a passion for computer programming and
+                look
+                forward to becoming a great asset to any company willing to have me!
+            </p>
+        </div>
         <div>
-            <h1>Technologies</h1>
+            <h1 id="tech-label">Technologies</h1>
         </div>
         <div class="techs">
 
@@ -178,7 +191,9 @@
 
     </div>
 
-    <div class="project-div" id="project-div">
+    <br id="projects">
+
+    <div class="project-div">
         <h1 style="text-align: center;">
             Projects
         </h1>
@@ -304,9 +319,52 @@
                     </div>
                 </div>
             </div>
+
+            <div class="site-div">
+                <div class="site-left">
+                    <div class="site-text">
+                        <img src="./site_pics/snack_overflow_logo.png" width="40px">
+                        Snack<span style="font-weight: bolder;">Overflow</span></p>
+                    </div>
+                    <div class="jello-slideshow">
+                        <div class="slideshow-container3">
+                            <div class="mySlides3 fade3">
+                                <div class="numbertext3">1 / 3</div>
+                                <img src="./site_pics/snack1.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides3 fade3">
+                                <div class="numbertext3">2 / 3</div>
+                                <img src="./site_pics/snack2.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides3 fade3">
+                                <div class="numbertext3">3 / 3</div>
+                                <img src="./site_pics/snack3.png" style="width:100%">
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <div class="site-right">
+                    <div class="site-btns">
+                        <a href="https://github.com/jonevanmoore/snack-overflow" target="_blank"
+                            class="resume">&lt;/&gt;
+                            Code</a>
+                        <a href="https://snackoverflowapp.herokuapp.com" target="_blank" class="resume">Live Site</a>
+                    </div>
+                    <div class="site-desc">
+                        <p class="text-desc">
+                            A spiritual clone of StackOverflow, with a theme of all things edible.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
+
+
 </body>
 
 </html>
